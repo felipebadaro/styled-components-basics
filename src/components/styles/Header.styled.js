@@ -9,7 +9,7 @@ export const StyledHeader = styled.header`
   }
 
   &:hover {
-    background-color: ${({ hoverbg }) => hoverbg};
+    background-color: ${({ theme }) => theme.colors.header};
     cursor: pointer;
   }
 `;
